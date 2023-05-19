@@ -81,7 +81,6 @@
             <li style="display:inline"><a href="https://midjourney.com/home/?callbackUrl=%2Fapp%2F"style="color: #FFD700"target="_blank" rel="noopener noreferrer">MidJourney</a></li>
             <li style="display:inline"><a href="https://www.freecodecamp.org/"style="color: #FFD700"target="_blank" rel="noopener noreferrer">FreeCodeCamp</a></li>
             <li style="display:inline"><a href="https://github.com/markodenic/web-development-resources"style="color: #FFD700"target="_blank" rel="noopener noreferrer">GitHub Repo of WebDev Resources</a></li>
-            <li style="display:inline"><a href="https://domains.google/"style="color: #FFD700"target="_blank" rel="noopener noreferrer">Google Domains</a></li>
             <li style="display:inline"><a href="https://www.codecademy.com/"style="color: #FFD700"target="_blank" rel="noopener noreferrer">Codeacademy</a></li>
             <li style="display:inline"><a href="https://github.com/"style="color: #FFD700"target="_blank" rel="noopener noreferrer">Git/Github</a></li>
             <li style="display:inline"><a href="https://www.svgrepo.com/"style="color: #FFD700"target="_blank" rel="noopener noreferrer">SVGRepo</a></li>

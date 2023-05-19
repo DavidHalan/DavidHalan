@@ -96,7 +96,7 @@
         </ul>
         <li><h2 style="color: #FFDEAD">Recursos para o meu README</h2>
         <ul>
-            <li style="display:inline"><a href="https://gprm.itsvg.in/"style="color: #FFD700"target="_blank" rel="noopener noreferrer">GitHub Profile README</a></li>
+            <li style="display:inline"><a href="https://gprm.itsvg.in/"style="color: #FFD700"target="_blank" rel="noopener noreferrer">GitHub README Profile</a></li>
             <li style="display:inline"><a href="https://github.com/anuraghazra/github-readme-stats"style="color: #FFD700"target="_blank" rel="noopener noreferrer">GitHub README Status</a></li>
             <li style="display:inline"><a href="https://github.com/DenverCoder1/readme-typing-svg"style="color: #FFD700"target="_blank" rel="noopener noreferrer">Animação "Digitando"</a></li>
             <li style="display:inline"><a href="https://github.com/durgeshsamariya/awesome-github-profile-readme-templates"style="color: #FFD700"target="_blank" rel="noopener noreferrer">Coleção de ótimos README!</a></li>

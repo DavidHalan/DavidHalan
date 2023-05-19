@@ -48,11 +48,6 @@
         <a href="https://developer.mozilla.org/pt-BR/docs/Web/JavaScript" target="_blank" rel="noreferrer"> <img src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/javascript/javascript-original.svg" alt="javascript" width="40" height="40"/> </a> 
         <a href="https://www.python.org" target="_blank" rel="noreferrer"> <img src="https://raw.githubusercontent.com/devicons/devicon/master/icons/python/python-original.svg" alt="python" width="40" height="40"/> </a>
         <a href="https://devdocs.io/c/" target="_blank" rel="noreferrer"> <img src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/c/c-original.svg" alt="c" width="40" height="40"/> </a> <a href="https://www.tensorflow.org" target="_blank" rel="noreferrer"> </a> </p>
-      <!--<img align="center" alt="David-React" height="30" width="40"src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/html5/html5-original.svg" />
-      <img align="center" alt="David-React" height="30" width="40"src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/css3/css3-original.svg"/>
-      <img align="center" alt="David-React" height="30" width="40"src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/javascript/javascript-original.svg" />
-      <img align="center" alt="David-React" height="30" width="40"src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/python/python-original.svg" />
-      <img align="center" alt="David-React" height="30" width="40"src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/c/c-original.svg" /> </a> </p>-->
 
 </details>
 
@@ -63,85 +58,52 @@
     </summary>
     <div>
             <img src="https://media1.giphy.com/avatars/palomalightwood/dtPcbxgNtW0y.gif" alt="Yoda" style="display: inline-block; color: #FF6347; border-bottom: none; padding-left: 0.2em" width=60; height=60> 
-            <p style="color: #FFDEAD; display: inline-block; vertical-align: 1.7em" > "Always pass on what you have learned." - Yoda </p>
+            <p style="color: #FFDEAD; display: inline-block; vertical-align: 1.7em" > "Passe adiante o que aprendeu" - Yoda </p>
     </div>
     <div>
     <p style="color: #FFDEAD">
-    Throughout my coding journey, I've used tons and tons of resources, almost all free. In an attempt to "give back," below is a (non-extensive and unordered) list of all resources I've used to get me to where I am today. These include websites, web apps, apps, creators, and much more.
+    Em uma tentativa de "retribuir", logo abaixo está uma lista(não extensa e não ordenada) de todos(eu acho) os recursos que utilizei para adquirir os conhecimentos que tenho hoje, quase todos gratuitos. Isso inclui sites, aplicativos da web, aplicativos, criadores e muito mais.
     </p>
     </div>
     <ul>
-        <li><h2 style="color: #FFDEAD">YouTube Creators</h2>
+        <li><h2 style="color: #FFDEAD">Criadores do YouTube</h2>
         <ul>
-            <li style="display:inline"><a href="https://www.youtube.com/@WebDevSimplified" target="_blank" rel="noopener noreferrer"style="color: #FFD700">WebDev Simplified</a></li>
-            <!-- 
-            <li style="display:inline; color: #FFD700"> | </li>
-            I would add bars between everythingn but github markdown doesn't style things horizontally for lists.
-            -->
-            <li style="display:inline"><a href="https://www.youtube.com/@LukeSmithxyz" style="color: #FFD700"target="_blank" rel="noopener noreferrer">Luke Smith</a></li>
-            <li style="display:inline"><a href="https://www.youtube.com/@Fireship" style="color: #FFD700"target="_blank" rel="noopener noreferrer">FireShip</a></li>
-            <li style="display:inline"><a href="https://www.youtube.com/@freecodecamp" style="color: #FFD700"target="_blank" rel="noopener noreferrer">freeCodeCamp.org</a></li>
-            <li style="display:inline"><a href="https://www.youtube.com/@supersimpledev" style="color: #FFD700"target="_blank" rel="noopener noreferrer">SuperSimpleDev</a></li>
-            <li style="display:inline"><a href="https://www.youtube.com/@itsdineshvaryani" style="color: #FFD700"target="_blank" rel="noopener noreferrer">Dinesh Varyani</a></li>
-            <li style="display:inline"><a href="https://www.youtube.com/@piratekingdom"style="color: #FFD700"target="_blank" rel="noopener noreferrer">Pirate King</a></li>
-            <li style="display:inline"><a href="https://www.youtube.com/@tom7"style="color: #FFD700"target="_blank" rel="noopener noreferrer">Suckerpinch/Tom7</a></li>
-            <li style="display:inline"><a href="https://www.youtube.com/@paulmcwhorter"style="color: #FFD700"target="_blank" rel="noopener noreferrer">Paul McWhorter</a></li>
-            <li style="display:inline"><a href="https://www.youtube.com/@AutomationBD"style="color: #FFD700"target="_blank" rel="noopener noreferrer">Automation BD</a></li>
-            <li style="display:inline"><a href="https://www.youtube.com/@BenEater"style="color: #FFD700"target="_blank" rel="noopener noreferrer">Ben Eater</a></li>
-            <li style="display:inline"><a href="https://www.youtube.com/@SeniorMarsTries"style="color: #FFD700"target="_blank" rel="noopener noreferrer">SeniorMars</a></li>
-            <li style="display:inline"><a href="https://www.youtube.com/@TraversyMedia"style="color: #FFD700"target="_blank" rel="noopener noreferrer">Traversy Media</a></li>
-            <li style="display:inline"><a href="https://www.youtube.com/@Darwady2"style="color: #FFD700"target="_blank" rel="noopener noreferrer">Dan Arwady</a></li>
-            <li style="display:inline"><a href="https://www.youtube.com/@bawad"style="color: #FFD700"target="_blank" rel="noopener noreferrer">Ben Awad</a></li>
-            <li style="display:inline"><a href="https://www.youtube.com/c/FKnight"style="color: #FFD700"target="_blank" rel="noopener noreferrer">Forrest Knight</a></li>
+            <li style="display:inline"><a href="https://www.youtube.com/@OtavioMiranda" style="color: #FFD700"target="_blank" rel="noopener noreferrer">Otávio Miranda</a></li>
+            <li style="display:inline"><a href="https://www.youtube.com/@CursoemVideo" style="color: #FFD700"target="_blank" rel="noopener noreferrer">Gustavo Guanabara</a></li>
+            <li style="display:inline"><a href="https://www.youtube.com/@DevAprender" style="color: #FFD700"target="_blank" rel="noopener noreferrer">Dev Aprender</a></li>
+            <li style="display:inline"><a href="https://www.youtube.com/@DevSuperior" style="color: #FFD700"target="_blank" rel="noopener noreferrer">Nelio Alves</a></li>
         </ul>
         </li> 
-        <li><h2 style="color: #FFDEAD">Helpful Websites/Tools</h2>
+        <li><h2 style="color: #FFDEAD">Sites úteis/Tools</h2>
         <ul>
             <li style="display:inline"><a href="https://openai.com/blog/chatgpt/"style="color: #FFD700"target="_blank" rel="noopener noreferrer">ChatGPT</a></li>
             <li style="display:inline"><a href="https://stackoverflow.com/"style="color: #FFD700"target="_blank" rel="noopener noreferrer">Stack Overflow</a></li>
-            <li style="display:inline"><a href="https://www.google.com/"style="color: #FFD700"target="_blank" rel="noopener noreferrer">Google</a></li>
             <li style="display:inline"><a href="https://midjourney.com/home/?callbackUrl=%2Fapp%2F"style="color: #FFD700"target="_blank" rel="noopener noreferrer">MidJourney</a></li>
             <li style="display:inline"><a href="https://www.freecodecamp.org/"style="color: #FFD700"target="_blank" rel="noopener noreferrer">FreeCodeCamp</a></li>
-            <li style="display:inline"><a href="https://mui.com/"style="color: #FFD700"target="_blank" rel="noopener noreferrer">Mui</a></li>
-            <li style="display:inline"><a href="https://developers.google.com/"style="color: #FFD700"target="_blank" rel="noopener noreferrer">Google Developers</a></li>
-            <li style="display:inline"><a href="https://www.vultr.com/"style="color: #FFD700"target="_blank" rel="noopener noreferrer">Vultr</a></li>
             <li style="display:inline"><a href="https://github.com/markodenic/web-development-resources"style="color: #FFD700"target="_blank" rel="noopener noreferrer">GitHub Repo of WebDev Resources</a></li>
             <li style="display:inline"><a href="https://domains.google/"style="color: #FFD700"target="_blank" rel="noopener noreferrer">Google Domains</a></li>
             <li style="display:inline"><a href="https://www.codecademy.com/"style="color: #FFD700"target="_blank" rel="noopener noreferrer">Codeacademy</a></li>
             <li style="display:inline"><a href="https://github.com/"style="color: #FFD700"target="_blank" rel="noopener noreferrer">Git/Github</a></li>
             <li style="display:inline"><a href="https://www.svgrepo.com/"style="color: #FFD700"target="_blank" rel="noopener noreferrer">SVGRepo</a></li>
-            <li style="display:inline"><a href="https://www.figma.com/"style="color: #FFD700"target="_blank" rel="noopener noreferrer">Figma</a></li>
-            <li style="display:inline"><a href="https://mxtoolbox.com/diagnostic.aspx"style="color: #FFD700"target="_blank" rel="noopener noreferrer">MXToolbox</a></li>
-            <li style="display:inline"><a href="https://www.wireshark.org/"style="color: #FFD700"target="_blank" rel="noopener noreferrer">Wireshark</a></li>
-        </ul>
-        <li><h2 style="color: #FFDEAD">My Workflow</h2>
+        <li><h2 style="color: #FFDEAD">Meu fluxo de trabalho</h2>
         <ul>
             <li style="display:inline"><a href="https://www.notion.so/"style="color: #FFD700"target="_blank" rel="noopener noreferrer">Notion</a></li>
             <li style="display:inline"><a href="https://code.visualstudio.com/"style="color: #FFD700"target="_blank" rel="noopener noreferrer">VSCode</a></li>
-            <li style="display:inline"><a href="https://pandoc.org/"style="color: #FFD700"target="_blank" rel="noopener noreferrer">Pandoc</a></li>
+            <li style="display:inline"><a href="https://replit.com/"style="color: #FFD700"target="_blank" rel="noopener noreferrer">Replit</a></li>
             <li style="display:inline"><a href="https://www.sublimetext.com/"style="color: #FFD700"target="_blank" rel="noopener noreferrer">Sublime Text</a></li>
-            <li style="display:inline"><a href="https://jupyter.org/"style="color: #FFD700"target="_blank" rel="noopener noreferrer">Jupyter</a></li>
-            <li style="display:inline"><a href="https://www.mozilla.org/en-US/firefox/new/"style="color: #FFD700"target="_blank" rel="noopener noreferrer">Firefox</a></li>
-            <li style="display:inline"> <a href="https://www.figma.com/"style="color: #FFD700"target="_blank" rel="noopener noreferrer">Figma</a></li>
             <li style="display:inline"><a href="https://discord.com/"style="color: #FFD700"target="_blank" rel="noopener noreferrer">Discord</a></li>
             <li style="display:inline"><a href="https://open.spotify.com/"style="color: #FFD700"target="_blank" rel="noopener noreferrer">Spotify</a></li>
-            <li style="display:inline"><a href="https://www.jetbrains.com/idea/"style="color: #FFD700"target="_blank" rel="noopener noreferrer">IntelliJ</a></li>
         </ul>
-        <li><h2 style="color: #FFDEAD">Resources for my Readme</h2>
+        <li><h2 style="color: #FFDEAD">Recursos para o meu README</h2>
         <ul>
-            <li style="display:inline"><a href="https://github.com/kittinan/spotify-github-profile"style="color: #FFD700"target="_blank" rel="noopener noreferrer">Display Spotify Activity</a></li>
-            <li style="display:inline"><a href="https://github.com/anuraghazra/github-readme-stats"style="color: #FFD700"target="_blank" rel="noopener noreferrer">GitHub Readme Stats</a></li>
-            <li style="display:inline"><a href="https://github.com/DenverCoder1/readme-typing-svg"style="color: #FFD700"target="_blank" rel="noopener noreferrer">Typing "Animation"</a></li>
-            <li style="display:inline"><a href="https://github.com/durgeshsamariya/awesome-github-profile-readme-templates"style="color: #FFD700"target="_blank" rel="noopener noreferrer">Collection of Great Readme's!</a></li>
-            <li style="display:inline"><a href="https://giphy.com" style="color: #FFD700"target="_blank" rel="noopener noreferrer">Find Gifs!</a></li>
-            <li style="display:inline"><a href="https://gist.github.com/rxaviers/7360908" style="color: #FFD700"target="_blank" rel="noopener noreferrer">Emojis for MD/Copy and Paste</a></li>
+            <li style="display:inline"><a href="https://github.com/anuraghazra/github-readme-stats"style="color: #FFD700"target="_blank" rel="noopener noreferrer">GitHub README Status</a></li>
+            <li style="display:inline"><a href="https://github.com/DenverCoder1/readme-typing-svg"style="color: #FFD700"target="_blank" rel="noopener noreferrer">Animação "Digitando"</a></li>
+            <li style="display:inline"><a href="https://github.com/durgeshsamariya/awesome-github-profile-readme-templates"style="color: #FFD700"target="_blank" rel="noopener noreferrer">Coleção de ótimos README!</a></li>
+            <li style="display:inline"><a href="https://giphy.com" style="color: #FFD700"target="_blank" rel="noopener noreferrer">Gifs!</a></li>
+            <li style="display:inline"><a href="https://gist.github.com/rxaviers/7360908" style="color: #FFD700"target="_blank" rel="noopener noreferrer">Emojis para MD/Copiar e Colar</a></li>
     </ul>
 
 </details>
-
-<hr>
-
-<p style="color: #FFDEAD;" align="center"> CopiedRightInFridgeMint © CharlieMeyer 2023</p>
 
 
 

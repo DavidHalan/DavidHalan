@@ -21,6 +21,7 @@
     <div>
         <ul>
             <li>EM BREVE!</li>
+            <li><a href="https://github.com/DavidHalan/FACULDADE" target="_blank" rel="noopener noreferrer" style="color: #FFD700;">FACULDADE</a></li>
             <li><a href="https://github.com/DavidHalan?tab=repositories" target="_blank" rel="noopener noreferrer" style="color: #FFD700;">Todos os Repositórios</a></li>
         </ul>
     </div>

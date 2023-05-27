@@ -35,7 +35,7 @@
     <p style="color: #FFDEAD">Confira minhas habilidade no GitHub! Esperançosamente, quando você estiver lendo isso, as atividades abaixo estejam com mais números, mas nunca se sabe... a universidade às vezes está com tudo! Estou começando a codar, mas espero fazer upload de muitos recursos, projetos e outras coisas. </p>
     <br>
     <p align="center">
-        <img src="https://github-readme-stats.vercel.app/api?username=DavidHalan&show_icons=true&theme=dark&include_all_commits=true"/>
+        <img src="https://github-readme-stats.vercel.app/api?username=DavidHalan&show_icons=true&theme=dark&count_private=true&include_all_commits=true"/>
     </p>
 </details>
 

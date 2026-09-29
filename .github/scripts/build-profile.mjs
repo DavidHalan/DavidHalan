@@ -15,6 +15,9 @@ const USER = process.env.PROFILE_USER || process.env.GITHUB_REPOSITORY_OWNER || 
 const TOKEN = process.env.GITHUB_TOKEN;
 const MOCK = process.argv.includes("--mock");
 const DAYS = 31;
+const TZ = process.env.PROFILE_TZ || "America/Sao_Paulo";
+// "hoje" no fuso do perfil (AAAA-MM-DD), para o gráfico não mostrar um dia que ainda não começou
+const TODAY = new Intl.DateTimeFormat("en-CA", { timeZone: TZ, year: "numeric", month: "2-digit", day: "2-digit" }).format(new Date());
 
 const C = {
   navy: "#262F56",
@@ -177,7 +180,7 @@ async function buildProjects() {
 async function fetchDays() {
   if (MOCK) {
     const out = [];
-    const today = new Date();
+    const today = new Date(`${TODAY}T12:00:00Z`);
     for (let i = DAYS - 1; i >= 0; i--) {
       const d = new Date(today);
       d.setUTCDate(d.getUTCDate() - i);
@@ -201,7 +204,10 @@ async function fetchDays() {
   if (json.errors?.length) throw new Error(json.errors.map((e) => e.message).join("; "));
   const weeks = json.data?.user?.contributionsCollection?.contributionCalendar?.weeks;
   if (!weeks) throw new Error("Resposta sem contributionCalendar");
-  return weeks.flatMap((w) => w.contributionDays).slice(-DAYS);
+  return weeks
+    .flatMap((w) => w.contributionDays)
+    .filter((d) => d.date <= TODAY)
+    .slice(-DAYS);
 }
 
 // Interpolação cúbica monotônica (Fritsch–Carlson): curva suave sem ultrapassar os dados

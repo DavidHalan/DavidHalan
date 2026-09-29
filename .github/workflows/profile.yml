@@ -1,0 +1,114 @@
+name: Atualizar perfil
+
+# Gera todos os cards do README como SVGs estáticos dentro do próprio repositório.
+# Assim o perfil não depende de instâncias públicas (que vivem fora do ar ou com limite de requisições).
+
+on:
+  schedule:
+    - cron: "17 6 * * *" # todo dia, 03:17 no horário de Brasília
+  workflow_dispatch: # botão "Run workflow" na aba Actions
+  push:
+    branches: [main]
+    paths:
+      - "projects.json"
+      - ".github/scripts/**"
+      - ".github/workflows/profile.yml"
+
+permissions:
+  contents: write
+
+concurrency:
+  group: atualizar-perfil
+  cancel-in-progress: true
+
+env:
+  USUARIO: ${{ github.repository_owner }}
+
+jobs:
+  gerar:
+    runs-on: ubuntu-latest
+    timeout-minutes: 15
+    steps:
+      - name: Checkout
+        uses: actions/checkout@v6
+
+      - name: Preparar pasta de saída
+        run: mkdir -p profile/projects
+
+      - name: Stats
+        uses: stats-organization/github-readme-stats-action@v2
+        continue-on-error: true
+        with:
+          card: stats
+          options: username=${{ env.USUARIO }}&show_icons=true&locale=pt-br&card_width=495&hide_border=true&border_radius=14&bg_color=262F56&title_color=F1E7DA&text_color=C7B7A3&icon_color=D4A373&ring_color=D4A373
+          path: profile/stats.svg
+          token: ${{ secrets.GITHUB_TOKEN }}
+          fail_on_error: true
+
+      - name: Top Languages
+        uses: stats-organization/github-readme-stats-action@v2
+        continue-on-error: true
+        with:
+          card: top-langs
+          options: username=${{ env.USUARIO }}&layout=compact&langs_count=8&locale=pt-br&card_width=495&hide_border=true&border_radius=14&bg_color=262F56&title_color=F1E7DA&text_color=C7B7A3
+          path: profile/top-langs.svg
+          token: ${{ secrets.GITHUB_TOKEN }}
+          fail_on_error: true
+
+      - name: Streak
+        uses: DenverCoder1/github-readme-streak-stats@v1
+        continue-on-error: true
+        with:
+          options: user=${{ env.USUARIO }}&locale=pt_BR&timezone=America/Sao_Paulo&card_width=1000&hide_border=true&border_radius=14&background=262F56&stroke=3A4470&ring=D4A373&fire=D4A373&currStreakNum=F1E7DA&sideNums=F1E7DA&currStreakLabel=D4A373&sideLabels=C7B7A3&dates=9AA5D8
+          path: profile/streak.svg
+          token: ${{ secrets.GITHUB_TOKEN }}
+
+      - name: Setup Deno (troféus)
+        uses: denoland/setup-deno@v2
+        with:
+          deno-version: v1.x
+
+      - name: Trophies
+        continue-on-error: true
+        env:
+          GITHUB_TOKEN1: ${{ secrets.GITHUB_TOKEN }}
+          TROPHY_SHA: e3c89df995e92e67cdd4b2acaab9d974583dc1f7
+        run: |
+          git clone --quiet https://github.com/ryo-ma/github-profile-trophy.git "$RUNNER_TEMP/trophy"
+          git -C "$RUNNER_TEMP/trophy" checkout --quiet "$TROPHY_SHA"
+          cp .github/scripts/trophy.ts "$RUNNER_TEMP/trophy/trophy-perfil.ts"
+          cd "$RUNNER_TEMP/trophy"
+          deno run --allow-net --allow-env --allow-read --allow-write trophy-perfil.ts "$USUARIO" "$GITHUB_WORKSPACE/profile/trophies.svg"
+
+      - name: Setup Node
+        uses: actions/setup-node@v6
+        with:
+          node-version: 22
+
+      - name: Activity Graph + cards de projetos
+        continue-on-error: true
+        env:
+          GITHUB_TOKEN: ${{ secrets.GITHUB_TOKEN }}
+          PROFILE_USER: ${{ env.USUARIO }}
+        run: node .github/scripts/build-profile.mjs
+
+      - name: Snake
+        uses: Platane/snk/svg-only@v3
+        continue-on-error: true
+        with:
+          github_user_name: ${{ env.USUARIO }}
+          outputs: |
+            profile/snake.svg?color_snake=#262F56&color_dots=#EBEDF0,#D9CBB9,#B8977A,#7A5A45,#251B17
+            profile/snake-dark.svg?color_snake=#D4A373&color_dots=#161B22,#2E3766,#4A5590,#7A86C2,#B4BDE6
+
+      - name: Commit
+        run: |
+          git config user.name "github-actions[bot]"
+          git config user.email "41898282+github-actions[bot]@users.noreply.github.com"
+          git add profile README.md
+          if git diff --cached --quiet; then
+            echo "Nada mudou desde a última execução."
+            exit 0
+          fi
+          git commit -m "chore(perfil): atualiza cards e estatísticas"
+          git push

@@ -31,19 +31,12 @@ const david = {
 
 ### `02` &nbsp;Tecnologias
 
-<p>
-  <code>interface</code>&nbsp;
+<p align="center">
   <img src="https://img.shields.io/badge/HTML-262F56?style=for-the-badge&logo=html5&logoColor=D4A373" alt="HTML">
   <img src="https://img.shields.io/badge/CSS-262F56?style=for-the-badge&logo=css&logoColor=D4A373" alt="CSS">
   <img src="https://img.shields.io/badge/JavaScript-262F56?style=for-the-badge&logo=javascript&logoColor=D4A373" alt="JavaScript">
   <img src="https://img.shields.io/badge/React-262F56?style=for-the-badge&logo=react&logoColor=D4A373" alt="React">
-</p>
-<p>
-  <code>aplicação</code>&nbsp;
   <img src="https://img.shields.io/badge/Next.js-262F56?style=for-the-badge&logo=nextdotjs&logoColor=D4A373" alt="Next.js">
-</p>
-<p>
-  <code>dados</code>&nbsp;
   <img src="https://img.shields.io/badge/PostgreSQL-251B17?style=for-the-badge&logo=postgresql&logoColor=D4A373" alt="PostgreSQL">
 </p>
 
@@ -54,10 +47,10 @@ const david = {
 <!-- Os cards abaixo são gerados a partir de projects.json pelo workflow "Atualizar perfil". Edite o JSON, não este bloco. -->
 <!-- PROJETOS:INICIO -->
 <p align="center">
-  <a href="https://github.com/DavidHalan"><img src="./profile/projects/projeto-01.svg" width="49%" alt="Projeto 01: Espaço reservado para um projeto. Troque nome, descrição, stack e link em projects.json."></a>
-  <a href="https://github.com/DavidHalan"><img src="./profile/projects/projeto-02.svg" width="49%" alt="Projeto 02: Espaço reservado para um projeto. Troque nome, descrição, stack e link em projects.json."></a>
-  <a href="https://github.com/DavidHalan"><img src="./profile/projects/projeto-03.svg" width="49%" alt="Projeto 03: Espaço reservado para um projeto. Troque nome, descrição, stack e link em projects.json."></a>
-  <a href="https://github.com/DavidHalan"><img src="./profile/projects/projeto-04.svg" width="49%" alt="Projeto 04: Espaço reservado para um projeto. Troque nome, descrição, stack e link em projects.json."></a>
+  <a href="https://github.com/DavidHalan"><img src="./../../../../tmp/claude-0/-home-claude/fe3831f7-8791-5213-be43-779f13e76731/scratchpad/mock2/projects/projeto-01.svg" width="49%" alt="Projeto 01: Espaço reservado para um projeto. Troque nome, descrição, stack e link em projects.json."></a>
+  <a href="https://github.com/DavidHalan"><img src="./../../../../tmp/claude-0/-home-claude/fe3831f7-8791-5213-be43-779f13e76731/scratchpad/mock2/projects/projeto-02.svg" width="49%" alt="Projeto 02: Espaço reservado para um projeto. Troque nome, descrição, stack e link em projects.json."></a>
+  <a href="https://github.com/DavidHalan"><img src="./../../../../tmp/claude-0/-home-claude/fe3831f7-8791-5213-be43-779f13e76731/scratchpad/mock2/projects/projeto-03.svg" width="49%" alt="Projeto 03: Espaço reservado para um projeto. Troque nome, descrição, stack e link em projects.json."></a>
+  <a href="https://github.com/DavidHalan"><img src="./../../../../tmp/claude-0/-home-claude/fe3831f7-8791-5213-be43-779f13e76731/scratchpad/mock2/projects/projeto-04.svg" width="49%" alt="Projeto 04: Espaço reservado para um projeto. Troque nome, descrição, stack e link em projects.json."></a>
 </p>
 <!-- PROJETOS:FIM -->
 

@@ -1,0 +1,33 @@
+{
+  "_como_usar": "Edite a lista abaixo e faça commit. O workflow 'Atualizar perfil' gera os cards em profile/projects/ e atualiza a seção de projetos do README. Campos: nome, descricao (até ~100 caracteres), stack (até 4 itens), status (ex.: 'em produção', 'em andamento', 'em breve') e link.",
+  "projetos": [
+    {
+      "nome": "Projeto 01",
+      "descricao": "Espaço reservado para um projeto. Troque nome, descrição, stack e link em projects.json.",
+      "stack": ["a definir"],
+      "status": "em breve",
+      "link": "https://github.com/DavidHalan"
+    },
+    {
+      "nome": "Projeto 02",
+      "descricao": "Espaço reservado para um projeto. Troque nome, descrição, stack e link em projects.json.",
+      "stack": ["a definir"],
+      "status": "em breve",
+      "link": "https://github.com/DavidHalan"
+    },
+    {
+      "nome": "Projeto 03",
+      "descricao": "Espaço reservado para um projeto. Troque nome, descrição, stack e link em projects.json.",
+      "stack": ["a definir"],
+      "status": "em breve",
+      "link": "https://github.com/DavidHalan"
+    },
+    {
+      "nome": "Projeto 04",
+      "descricao": "Espaço reservado para um projeto. Troque nome, descrição, stack e link em projects.json.",
+      "stack": ["a definir"],
+      "status": "em breve",
+      "link": "https://github.com/DavidHalan"
+    }
+  ]
+}
